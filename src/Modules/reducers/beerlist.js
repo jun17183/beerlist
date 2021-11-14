@@ -1,20 +1,15 @@
-export const GET_DATA = "GET_DATA";
+export const INITIAL_SETTING = "INITIAL_SETTING";
 export const SET_DATA = "SET_DATA";
-
 export const SET_TABLE_DATA = "SET_TABLE_DATA";
-
 export const SET_MODAL_DATA = "SET_MODAL_DATA";
 export const SET_MODAL_TOGGLE = "SET_MODAL_TOGGLE";
-
 export const SET_COLUMNS = "SET_COLUMNS";
-
 export const SET_DATA_LOADING = "SET_DATA_LOADING";
-
 export const ADD_CART = "ADD_CART";
 export const REMOVE_CART = "REMOVE_CART";
 
-export const getData = () => ({
-  type: GET_DATA
+export const initialSetting = () => ({
+  type: INITIAL_SETTING
 });
 
 export const setData = (data) => ({

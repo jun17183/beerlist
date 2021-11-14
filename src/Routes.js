@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 
 import { useDispatch } from 'react-redux'
-import { getData } from './Modules/reducers/beerlist';
+import { initialSetting } from './Modules/reducers/beerlist';
 
 import Home from "./Pages/Home";
 import BeerList from "./Pages/BeerList";
@@ -17,7 +17,7 @@ const Routes = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(getData());
+    dispatch(initialSetting());
   }, [dispatch]);
 
   return (

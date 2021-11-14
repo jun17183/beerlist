@@ -7,7 +7,6 @@ import GlobalFont from "../Styled/fonts/fonts";
 import Table from "../Styled/components/table/Table";
 import { cbg } from "../Styled/components/table/TableStyle"
 import Header, { Logo } from "../Styled/components/Header";
-
 import { addCart } from "../Modules/reducers/beerlist";
 
 const BeerList = () => {

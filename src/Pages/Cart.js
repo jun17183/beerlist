@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from "react-redux";
 import GlobalFont from "../Styled/fonts/fonts";
 import Header, { Logo } from "../Styled/components/Header";
 import Table from "../Styled/components/table/Table";
-
 import { removeCart } from "../Modules/reducers/beerlist";
 
 const Cart = () => {
